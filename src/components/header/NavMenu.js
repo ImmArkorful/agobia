@@ -29,13 +29,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li className="mega-menu-title">
-                    <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_one"]}
-                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Electronics </Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                      Electronics Page One
                     </Link>
                   </li>
                 </ul>
@@ -57,13 +55,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li className="mega-menu-title">
-                    <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_one"]}
-                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Groceries </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                    <Link to={process.env.PUBLIC_URL + "/home-fashion-three"}>
+                      Groceries Page One
                     </Link>
                   </li>
                 </ul>
@@ -85,13 +81,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li className="mega-menu-title">
-                    <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_one"]}
-                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Beauty </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                    <Link to={process.env.PUBLIC_URL + "/home-cosmetics"}>
+                      Beauty Page One
                     </Link>
                   </li>
                 </ul>
@@ -113,13 +107,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li className="mega-menu-title">
-                    <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_one"]}
-                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Books </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                    <Link to={process.env.PUBLIC_URL + "/home-book-store-two"}>
+                      Books Page One
                     </Link>
                   </li>
                 </ul>
@@ -142,12 +134,12 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                 <ul>
                   <li className="mega-menu-title">
                     <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_one"]}
+                      Office and Stationery
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                    <Link to={process.env.PUBLIC_URL + "/home-flower-shop-two"}>
+                      Office and Stationery Page One
                     </Link>
                   </li>
                 </ul>
@@ -169,13 +161,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li className="mega-menu-title">
-                    <Link to={process.env.PUBLIC_URL + "/"}>
-                      {strings["home_group_one"]}
-                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Fashion</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-furniture"}>
-                      {strings["home_furniture"]}
+                    <Link to={process.env.PUBLIC_URL + "/home-fashion-three"}>
+                      Fashion Page One
                     </Link>
                   </li>
                 </ul>
