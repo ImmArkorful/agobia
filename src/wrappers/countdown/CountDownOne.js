@@ -14,15 +14,15 @@ const CountDownOne = ({ spaceTopClass, spaceBottomClass, bgImg, dateTime }) => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 ml-auto">
+          <div className="col-lg-10 ml-auto">
             <div className="funfact-content text-center">
-              <h2>Deal of the day</h2>
-              <div className="timer">
+              {/* <div className="timer">@babel/helper-builder-react-jsx
                 <Countdown date={new Date(dateTime)} renderer={Renderer} />
-              </div>
-              <div className="funfact-btn btn-hover">
+              </div> */}
+              <div className="funfact-btn btn-hover d-flex flex-row justify-content-around align-items-center">
+                <h2>Want to be a seller?</h2>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  SHOP NOW
+                  SIGN UP NOW
                 </Link>
               </div>
             </div>
@@ -37,7 +37,7 @@ CountDownOne.propTypes = {
   bgImg: PropTypes.string,
   dateTime: PropTypes.string,
   spaceBottomClass: PropTypes.string,
-  spaceTopClass: PropTypes.string
+  spaceTopClass: PropTypes.string,
 };
 
 export default CountDownOne;

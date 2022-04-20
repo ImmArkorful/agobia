@@ -30,8 +30,8 @@ const HomeFurniture = () => {
 
         {/* countdown */}
         <CountDownOne
-          spaceTopClass="pt-115"
-          spaceBottomClass="pb-115"
+          spaceTopClass="pt-6"
+          spaceBottomClass="pb-10"
           bgImg="/assets/img/bg/bg-1.jpg"
           dateTime="November 13, 2020 12:12:00"
         />
@@ -40,7 +40,7 @@ const HomeFurniture = () => {
         <FeatureIconTwo spaceTopClass="pt-100" spaceBottomClass="pb-60" />
 
         {/* blog featured */}
-        <BlogFeatured spaceBottomClass="pb-55" />
+        {/* <BlogFeatured spaceBottomClass="pb-55" /> */}
       </LayoutOne>
     </Fragment>
   );
